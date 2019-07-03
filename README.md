@@ -1,2 +1,1 @@
-# drumcamp
 # jessicadavey.github.io
