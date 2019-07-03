@@ -1,0 +1,86 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 90%;
+    margin: auto;
+}
+
+body a {
+    color: dodgerblue;
+}
+
+header {
+    text-align: center;
+}
+
+header>* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1 {
+    margin: 5px 0px 0px 0px;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+main p {
+    margin: 10px auto;
+}
+
+main div {
+    margin-top: 20px;
+}
+
+main div h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+}
+
+main div h3 a {
+    text-decoration: none;
+}
+
+
+main div img {
+    display: block;
+    margin: 4px auto 8px auto;
+    width: 290px;
+    border: 1px solid grey;
+    margin-bottom: 8px;
+}
+
+main div p {
+    font-size: 0.8rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    margin: 25px auto;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media (min-width: 450px) {
+    html {
+        font-size: 18px;
+    }
+
+    body {
+        width: 50%;
+    }
+}
