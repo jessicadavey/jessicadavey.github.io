@@ -39,22 +39,22 @@ main p {
     margin: 10px auto;
 }
 
-main div {
+section {
     margin-top: 20px;
 }
 
-main div h3 {
+section h3 {
     text-align: center;
     font-size: 1.4rem;
     margin-bottom: 0px;
 }
 
-main div h3 a {
+section h3 a {
     text-decoration: none;
 }
 
 
-main div img {
+section img {
     display: block;
     margin: 4px auto 8px auto;
     width: 290px;
@@ -62,7 +62,7 @@ main div img {
     margin-bottom: 8px;
 }
 
-main div p {
+section p {
     font-size: 0.8rem;
     margin: 0px;
     padding: 0px;
