@@ -41,7 +41,7 @@ header>* {
 
 header h1 {
     margin: 10px 0px 0px 0px;
-    font-size: 2.9rem;
+    font-size: 3.2rem;
     color: #E54B4B;
 
 }
@@ -84,7 +84,7 @@ section img {
 }
 
 section p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: block;
     margin: 0px 20px;
     padding: 0px;
