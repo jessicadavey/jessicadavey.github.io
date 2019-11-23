@@ -31,6 +31,10 @@ header h2 {
     font-weight: normal;
 }
 
+main h2 {
+    text-align: center;
+}
+
 main p {
     margin: 10px auto;
 }
