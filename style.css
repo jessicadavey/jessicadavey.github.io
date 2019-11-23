@@ -4,10 +4,15 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5F5;
+    color: #1E1E24;
+}
+
+#container {
     width: 90%;
     margin: auto;
     background-color: #F5F5F5;
-    color: #1E1E24;
+    padding: 20px;
 }
 
 body a {
@@ -80,7 +85,8 @@ section img {
 
 section p {
     font-size: 0.8rem;
-    margin: 0px;
+    display: block;
+    margin: 0px 20px;
     padding: 0px;
 }
 
@@ -96,12 +102,27 @@ footer p {
 }
 
 
-@media (min-width: 450px) {
+@media (min-width: 612px) {
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     body {
+        background-color: #6B8280;
+    }
+
+    #container {
+        width: 70%;
+    }
+
+    section img {
+        width: 425px;
+    }
+}
+
+@media (min-width: 840px) {
+
+    #container {
         width: 50%;
     }
 }
