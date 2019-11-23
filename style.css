@@ -1,15 +1,33 @@
 html {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5F5;
+    color: #1E1E24;
+}
+
+#container {
     width: 90%;
     margin: auto;
+    background-color: #F5F5F5;
+    padding: 20px;
 }
 
 body a {
-    color: dodgerblue;
+    color: #E54B4B;
+}
+
+body a:hover {
+    color: #235789;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
 }
 
 header {
@@ -22,8 +40,10 @@ header>* {
 }
 
 header h1 {
-    margin: 5px 0px 0px 0px;
-    font-size: 2.5rem;
+    margin: 10px 0px 0px 0px;
+    font-size: 3.2rem;
+    color: #E54B4B;
+
 }
 
 header h2 {
@@ -31,26 +51,31 @@ header h2 {
     font-weight: normal;
 }
 
+main h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 main p {
     margin: 10px auto;
 }
 
-main div {
+section {
     margin-top: 20px;
 }
 
-main div h3 {
+section h3 {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     margin-bottom: 0px;
 }
 
-main div h3 a {
+section h3 a {
     text-decoration: none;
 }
 
 
-main div img {
+section img {
     display: block;
     margin: 4px auto 8px auto;
     width: 290px;
@@ -58,9 +83,10 @@ main div img {
     margin-bottom: 8px;
 }
 
-main div p {
-    font-size: 0.8rem;
-    margin: 0px;
+section p {
+    font-size: 1rem;
+    display: block;
+    margin: 0px 20px;
     padding: 0px;
 }
 
@@ -72,15 +98,31 @@ footer {
 footer p {
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 
 
-@media (min-width: 450px) {
+@media (min-width: 612px) {
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     body {
+        background-color: #6B8280;
+    }
+
+    #container {
+        width: 70%;
+    }
+
+    section img {
+        width: 425px;
+    }
+}
+
+@media (min-width: 840px) {
+
+    #container {
         width: 50%;
     }
 }
